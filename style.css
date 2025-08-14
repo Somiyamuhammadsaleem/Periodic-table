@@ -1,0 +1,164 @@
+.table-responsive{
+    overflow-x: auto;
+    max-width: 100%;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+table {
+    border-collapse: separate;
+    border-spacing:4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+td {
+      height:35px;
+    width:40px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.65rem;
+    font-weight: normal;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.Non-metals {
+    background-color: rgb(145, 220, 255);
+    color: navy;
+}
+
+
+.Noble-gases {
+    background-color: pink;
+    color: red;
+}
+.Metalloids {
+    background-color: rgb(230, 194, 129);
+    color: brown;
+}
+.Alkali-metals {
+    background-color: aqua;
+    color: rgb(8, 78, 78);
+}
+.Alkaline-earth-metals {
+    background-color: pink;
+    color: purple;
+}
+.post-transition-metals {
+    background-color: rgb(163, 255, 163);
+    color: darkgreen;
+}
+.Transition-metals {
+    background-color: rgb(236, 189, 236);
+    color: purple;
+}
+.lanthanides {
+    background-color: rgb(173, 255, 228);
+    color: rgb(13, 82, 82);
+}
+.unknown-metals {
+    background-color: grey;
+    color: black;
+}
+
+.Actinides {
+    background-color: peachpuff;
+    color: rgb(245, 165, 16)
+} 
+.Non-metals:hover {
+     font-size: 0.75rem;
+      height: 30px;
+    width: 30px;
+    background-color: rgb(145, 220, 255);
+    color: navy;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.Noble-gases:hover {
+    background-color: pink;
+    color: red;
+    font-size:0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.Metalloids:hover {
+    background-color: rgb(230, 194, 129);
+    color: brown;
+    font-size:0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.Alkali-metals:hover {
+    background-color: aqua;
+    color: rgb(8, 78, 78);
+    font-size: 0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.Alkaline-earth-metals:hover {
+    background-color: pink;
+    color: purple;
+    font-size:0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.post-transition-metals:hover {
+    background-color: rgb(163, 255, 163);
+    color: darkgreen;
+    font-size: 0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.Transition-metals:hover {
+    background-color: rgb(236, 189, 236);
+    color: purple;
+    font-size: 0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.lanthanides:hover {
+    background-color: rgb(173, 255, 228);
+    color: rgb(13, 82, 82);
+    font-size: 0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.unknown-metals:hover {
+    background-color: grey;
+    color: black;
+    font-size: 0.75rem;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.Actinides:hover {
+    background-color: peachpuff;
+    color: rgb(245, 165, 16);
+    font-size:0.75rem;
+    border-radius: 14px;
+    font-weight: bold
+
+}
+@media (max-width: 768px) {
+    td {
+        font-size: 0.6rem;
+        min-width: 40px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    td {
+        font-size: 0.5rem;
+        min-width: 35px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+}
